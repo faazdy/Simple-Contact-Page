@@ -75,6 +75,7 @@ section{
 .row1 input{
     width: 100%;
     padding: 1.5em;
+    margin: .5em 0;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -84,6 +85,7 @@ section{
 .row2 select{
     width: 100%;
     padding: 1.5em;
+    margin: .5em 0;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
