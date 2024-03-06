@@ -24,6 +24,7 @@ header{
     margin: 0 auto;
 }
 h1{
+    text-align: inherit;
     font-size: 64px;
 }
 h2{
