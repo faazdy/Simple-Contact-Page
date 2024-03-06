@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Recursos/dccl--responsive-contact-page/bg-image.svg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    height: 150vh;
+}
+
+header{
+    padding: 1em;
+}
+
+.tittle{
+    text-align: center;
+    color: #FFFF;
+    width: 600px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: #F8FAFC;
+}
+
+.container{
+    background-color: rgba(248, 250, 252, 0.219);
+    width: 50%;
+    padding: 1.5em;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container label{
+    font-size: 14px;
+    color: #F8FAFC;
+}
+
+.container, button, input, select, textarea{
+    border-radius: 10px;
+    border: none;
+}
+
+select{
+    font-weight: bold;
+}
+
+.container .row1, .row2{
+    display: flex;
+    gap: 10px;
+}
+
+section{
+    margin: 1em 0;
+}
+
+.row1 .name,.email{
+    flex: 50%;
+}
+.row1 input{
+    width: 100%;
+    padding: 1.5em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.row2 .company, .subj{
+    flex: 50%;
+}
+.row2 select{
+    width: 100%;
+    padding: 1.5em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+select:active{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.row3 textarea{
+    width: 100%;
+    /*desactivar el resize*/
+    resize: none;
+    margin: 10px 0;
+    margin-top: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+button{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: 100%;
+    border: none;
+    color: #4036A9;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1em;
+}
+
+@media screen and (max-width: 1024px){
+    .tittle{
+        text-align: center;
+        color: #FFFF;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .tittle{
+        text-align: center;
+        color: #FFFF;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .tittle h1{
+        font-size: 35px;
+    }
+    .tittle h2{
+        font-size: 15px;
+    }
+    .container .row1, .row2{
+        flex-direction: column;
+    }
+}
