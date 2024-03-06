@@ -112,6 +112,15 @@ button{
     padding: 1em;
 }
 
+button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: #4036A9;
+    color: white;
+    transition: .3s all;
+
+}
+
 @media screen and (max-width: 1024px){
     .tittle{
         text-align: center;
